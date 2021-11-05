@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "e2e:run": "node ./runner",
+    "e2e:debug": "node --inspect-brk ./runner",
+    "browserstack:browsers": "testcafe -b browserstack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe": "^1.16.0",
+    "testcafe-browser-provider-browserstack": "^1.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
